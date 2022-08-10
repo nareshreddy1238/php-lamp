@@ -1,9 +1,9 @@
 <?php
 
 function Createdb(){
-    $servername = "localhost";
+    $servername = "mysql";  #### webapp service metadata name or ip 
     $username = "root";
-    $password = "";
+    $password = "pass123";
     $dbname = "bookstore";
 
     // create connection
